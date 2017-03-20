@@ -3,14 +3,29 @@ body,html{
   padding: 0;
   box-sizing: border-box;
 }
-.category{
+.commodity{
     width:900px;
     margin:0 auto;
     border:1px solid black;
     text-align:center;
 }
-.category a{
-  margin-right: 5px;
+.commodity .category{
+  width: 80%;
+  margin:0 auto;
+  border: 1px solid black;
+}
+.commodity .category .categoryItem{
+  margin-right: 20px;
   word-wrap:break-word;
   display: inline-block;
+
+}
+.commodityList{
+  display: flex;
+  flex-wrap:wrap;
+}
+.commodityListItem{
+  width: 200px;
+  border: 1px solid black;
+  word-break:break-all;
 }
