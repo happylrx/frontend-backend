@@ -1,0 +1,16 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.category{
+    width:900px;
+    margin:0 auto;
+    border:1px solid black;
+    text-align:center;
+}
+.category a{
+  margin-right: 5px;
+  word-wrap:break-word;
+  display: inline-block;
+}
